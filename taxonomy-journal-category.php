@@ -130,7 +130,7 @@ get_header(); ?>
             <p class="btn__text">View more</p>
             <div class="arrow__bg">
                 <figure class="arrow__img">
-                    <img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="矢印">
+                                       <img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="矢印">
                 </figure>
             </div>
         </div>

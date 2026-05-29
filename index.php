@@ -65,7 +65,7 @@ get_header(); ?>
                         <?php wp_reset_postdata(); ?>
                     </ul>
                     <figure class="img">
-<img src="<?php echo $theme_path; ?>/assets/img/latest_news_arrow.webp" alt="矢印">
+                        <img src="<?php echo $theme_path; ?>/assets/img/latest_news_arrow.webp" alt="矢印">
                     </figure>
                 </div>
             </div>
@@ -104,7 +104,7 @@ get_header(); ?>
                 <img src="<?php echo $theme_path; ?>/assets/img/top_about1.webp" alt="一人では辿り着けない未来へ" loading="lazy">
             </figure>
             <figure class="top__about__img">
-                <img src="<?php echo $theme_path; ?>/assets/img/top_about2.webp" alt="資産運用" loading="lazy">
+                               <img src="<?php echo $theme_path; ?>/assets/img/top_about2.webp" alt="資産運用" loading="lazy">
             </figure>
         </div>
     </div>
@@ -127,7 +127,7 @@ get_header(); ?>
                         <p class="btn__text">View all</p>
                         <div class="more__bg">
                             <figure class="more__img">
-                                <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
+                                                               <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
                             </figure>
                         </div>
                     </a>
@@ -179,7 +179,7 @@ get_header(); ?>
                                     <p class="btn__text">View more</p>
                                     <div class="more__bg">
                                         <figure class="more__img">
-<img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
+                                            <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
                                         </figure>
                                     </div>
                                 </a>
@@ -205,7 +205,7 @@ get_header(); ?>
                                     <p class="btn__text">View more</p>
                                     <div class="more__bg">
                                         <figure class="more__img">
-<img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
+                                            <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
                                         </figure>
                                     </div>
                                 </a>
@@ -230,7 +230,7 @@ get_header(); ?>
                                     <p class="btn__text">View more</p>
                                     <div class="more__bg">
                                         <figure class="more__img">
-<img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
+                                            <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
                                         </figure>
                                     </div>
                                 </a>
@@ -257,7 +257,7 @@ get_header(); ?>
                 <p class="btn__text">View all</p>
                 <div class="white__bg">
                     <figure class="white__img">
-<img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="矢印">
+                        <img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="矢印">
                     </figure>
                 </div>
             </a>

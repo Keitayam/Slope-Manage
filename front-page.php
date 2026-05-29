@@ -9,10 +9,10 @@ get_header(); ?>
 <section id="fv" class="fv">
     <div class="wrap">
         <div class="fv__title__box">
-            <h2 class="title sh">一人では辿り着けない未来へ導く<br>プライベートバンカー
+            <h2 class="title sh">一人では辿り着けない未来へ導く<br>プライベートバンカー
             </h2>
             <p class="text eb">Your private banker, <br>
-            guiding you to a future beyond reach on your own.</p>
+                guiding you to a future beyond reach on your own.</p>
         </div>
     </div>
     <div class="latest__news">
@@ -104,7 +104,7 @@ get_header(); ?>
                 <img src="<?php echo $theme_path; ?>/assets/img/top_about1.webp" alt="一人では辿り着けない未来へ" loading="lazy">
             </figure>
             <figure class="top__about__img">
-<img src="<?php echo $theme_path; ?>/assets/img/top_about2.webp" alt="資産運用" loading="lazy">
+                <img src="<?php echo $theme_path; ?>/assets/img/top_about2.webp" alt="資産運用" loading="lazy">
             </figure>
         </div>
     </div>
@@ -127,8 +127,8 @@ get_header(); ?>
                         <p class="btn__text">View all</p>
                         <div class="more__bg">
                             <figure class="more__img">
-                                            <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
-                                        </figure>
+                                <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
+                            </figure>
                         </div>
                     </a>
                 </div>
@@ -204,7 +204,7 @@ get_header(); ?>
                                 <a class="btn more" href="<?php echo esc_url(home_url('/service#service__agency')) ?>">
                                     <p class="btn__text">View more</p>
                                     <div class="more__bg">
-                                       <figure class="more__img">
+                                        <figure class="more__img">
                                             <img src="<?php echo $theme_path; ?>/assets/img/arrow_blue.webp" alt="矢印">
                                         </figure>
                                     </div>

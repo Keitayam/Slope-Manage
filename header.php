@@ -38,9 +38,9 @@ $theme_path = get_stylesheet_directory_uri();
     <link rel="icon" type="image/ico" href="<?php echo $theme_path; ?>/assets/img/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
     <link rel="stylesheet" href="https://use.typekit.net/lwx7mxz.css">
-	<meta http-equiv="Cache-Control" content="no-store" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
     <?php if (has_post_thumbnail()) : ?>
         <meta property="og:image" content="<?php the_post_thumbnail_url(); ?>" />

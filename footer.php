@@ -41,13 +41,13 @@ $theme_path = get_stylesheet_directory_uri();
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // MW WP Formがグローバル変数として読み込まれてるか確認して再初期化
-    if (typeof MWForm !== 'undefined' && typeof MWForm.init === 'function') {
-      MWForm.init();
-      console.log('MW WP Form re-initialized');
-    }
-  });
+    document.addEventListener('DOMContentLoaded', function() {
+        // MW WP Formがグローバル変数として読み込まれてるか確認して再初期化
+        if (typeof MWForm !== 'undefined' && typeof MWForm.init === 'function') {
+            MWForm.init();
+            console.log('MW WP Form re-initialized');
+        }
+    });
 </script>
 </body>
 

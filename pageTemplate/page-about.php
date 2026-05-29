@@ -53,7 +53,7 @@ get_header();
                 </div>
                 <div class="flex content__flex">
                     <figure class="img">
-                        <img src="<?php echo $theme_path; ?>/assets/img/guidelines_img.webp" alt="行動方針の図" loading="lazy">
+                                               <img src="<?php echo $theme_path; ?>/assets/img/guidelines_img.webp" alt="行動方針の図" loading="lazy">
                     </figure>
                     <ul class="lists">
                         <li class="item">
@@ -119,7 +119,8 @@ get_header();
                             弁護士や公認会計士、税理士、不動産会社といったプロフェッショナルたちとの連携体制を整えています。</p>
                         <a class="btn white" href="<?php echo esc_url(home_url('/partner')) ?>">
                             <p class="btn__text">View more</p>
-                            <div class="white__bg"><figure class="white__img"><img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="プロフェッショナル・ネットワーク"></figure>
+                            <div class="white__bg">
+                                <figure class="white__img"><img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="プロフェッショナル・ネットワーク"></figure>
                             </div>
                         </a>
                     </div>

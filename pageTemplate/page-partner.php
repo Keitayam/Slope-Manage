@@ -210,7 +210,7 @@ get_header();
                             <p class="bio">2012年　不動産関連の会社にて独立に向けて名古屋市内にて個人・法人のお客様に土地・建物・収益物件の販売を経験。<br>
                                 2018年　株式会社サンユー設立し、全国各地の不動産の買取・販売を中心に活動。</p>
                             <ul class="tag__list pc">
-								<li class="item">不動産</li>
+                                <li class="item">不動産</li>
                                 <li class="item">相続</li>
                             </ul>
                             <a class="home" href="https://sanyu-realestate.com/company/" target="_blank">

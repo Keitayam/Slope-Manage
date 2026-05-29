@@ -4,7 +4,8 @@ if (!session_id() && !is_admin()) {
     session_start();
 }
 
-function disable_cache_on_all_pages() {
+function disable_cache_on_all_pages()
+{
     if (!is_admin()) {
         header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
         header("Cache-Control: post-check=0, pre-check=0", false);
@@ -44,7 +45,7 @@ function load_custom_scripts()
     if (is_page('news')) {
         wp_enqueue_script('tab-script', get_stylesheet_directory_uri() . '/js/tab.js');
     }
-    
+
     // お問い合わせ
     if (is_page('contact')) {
         $contact_js  = get_stylesheet_directory() . '/js/contact.js';
@@ -106,7 +107,8 @@ function my_custom_nav_menu_items($items, $args)
 }
 
 // 確認ページでキャッシュを無効化
-function disable_cache_on_confirm_page() {
+function disable_cache_on_confirm_page()
+{
     if (is_page('confirm')) {
         header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
         header("Cache-Control: post-check=0, pre-check=0", false);
@@ -156,13 +158,12 @@ function custom_autoreply_by_inquiry_type($contact_form)
 add_action('wpcf7_before_send_mail', 'custom_autoreply_by_inquiry_type');
 
 // サンクスページ
-add_action( 'wp_footer', function() {
-    ?>
+add_action('wp_footer', function () {
+?>
     <script>
-    document.addEventListener('wpcf7mailsent', function(event) {
-        window.location.href = '/thanks/';
-    }, false);
+        document.addEventListener('wpcf7mailsent', function(event) {
+            window.location.href = '/thanks/';
+        }, false);
     </script>
-    <?php
+<?php
 });
-

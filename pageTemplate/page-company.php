@@ -38,7 +38,7 @@ get_header();
                             <div class="pc image__box__text flex">
                                 <p class="text sh">代表取締役</p>
                                 <figure class="sign">
-<img src="<?php echo $theme_path; ?>/assets/img/company_sign.svg" alt="坂本善治のサイン" loading="lazy">
+                                    <img src="<?php echo $theme_path; ?>/assets/img/company_sign.svg" alt="坂本善治のサイン" loading="lazy">
                                 </figure>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ get_header();
         </section>
 
         <figure class="company__img">
-<img src="<?php echo $theme_path; ?>/assets/img/company_img.webp" alt="名古屋の街並み" loading="lazy">
+            <img src="<?php echo $theme_path; ?>/assets/img/company_img.webp" alt="名古屋の街並み" loading="lazy">
         </figure>
 
         <section id="information" class="company-information">
@@ -167,7 +167,7 @@ get_header();
             <p class="btn__text">View more</p>
             <div class="arrow__bg">
                 <figure class="arrow__img">
-                    <img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="矢印">
+                                       <img src="<?php echo $theme_path; ?>/assets/img/arrow_white.webp" alt="矢印">
                 </figure>
             </div>
         </div>

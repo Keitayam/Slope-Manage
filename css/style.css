@@ -3,7 +3,8 @@
 @font-face {
   font-display: swap;
   font-family: "Meiryo";
-  src: url("../font/meiryo.ttf") format("truetype"),
+  src:
+    url("../font/meiryo.ttf") format("truetype"),
     url("../font/meiryo.woff2") format("woff"),
     url("../font/meiryo.otf") format("opentype");
 }
@@ -11,7 +12,8 @@
 @font-face {
   font-display: swap;
   font-family: "EB Garamond";
-  src: url("../font/EBGaramond-Medium.ttf") format("truetype"),
+  src:
+    url("../font/EBGaramond-Medium.ttf") format("truetype"),
     url("../font/EBGaramond-Medium.woff") format("woff"),
     url("../font/EBGaramond-Medium.woff2") format("woff"),
     url("../font/EBGaramond-Medium.otf") format("opentype");
@@ -19,7 +21,8 @@
 @font-face {
   font-display: swap;
   font-family: "Shippori Mincho";
-  src: url("../font/ShipporiMincho-Regular.ttf") format("truetype"),
+  src:
+    url("../font/ShipporiMincho-Regular.ttf") format("truetype"),
     url("../font/ShipporiMincho-Regular.woff") format("woff"),
     url("../font/ShipporiMincho-Regular.woff2") format("woff"),
     url("../font/ShipporiMincho-Regular.otf") format("opentype");
@@ -177,9 +180,9 @@ iframe {
 }
 
 .form_btn_box .more__bg {
+  left: 97%;
   position: absolute;
   top: 33%;
-  left: 97%;
   transform: translate(-50%, -50%);
 }
 
@@ -212,20 +215,20 @@ iframe {
 }
 
 .splide {
-  visibility: hidden;
   opacity: 0;
   transition: opacity 0.3s ease;
+  visibility: hidden;
 }
 
 .splide.is-initialized {
-  visibility: visible;
   opacity: 1;
+  visibility: visible;
 }
 
 .splide__slide {
-  will-change: transform;
   backface-visibility: hidden;
   transform: translateZ(0);
+  will-change: transform;
 }
 
 /*loading*/
@@ -1013,10 +1016,10 @@ iframe {
 }
 
 .top__achievements .slider .item {
-  flex: 0 0 auto;
-  width: auto;
   background-color: #fff;
   border-radius: 10px;
+  flex: 0 0 auto;
+  width: auto;
 }
 
 .top__achievements .slider .item .link {
@@ -3540,14 +3543,14 @@ iframe {
 }
 
 .privacy-check {
-  opacity: 0;
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  position: absolute;
-  left: 0;
-  top: 4px;
   cursor: pointer;
+  height: 20px;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 4px;
+  width: 20px;
   z-index: 2;
 }
 
@@ -3766,8 +3769,9 @@ iframe {
 }
 
 .privacy .text__boxes .sub-heading {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
   font-size: 14px;
   margin-bottom: 45px;
 }
@@ -5070,10 +5074,10 @@ iframe {
 
   .top__journal .splide__slide .link .img {
     border: 5px solid #fff;
+    border-radius: 10px;
     height: 46.5vw;
     margin-bottom: 16px;
     width: 100%;
-    border-radius: 10px;
   }
   .top__journal .splide__slide {
     width: 77% !important;

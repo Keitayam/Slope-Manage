@@ -18,8 +18,6 @@ get_header(); ?>
             <div class="wrap__s">
                 <div class="content">
                     <?php get_template_part('inc/news_cat_list'); ?>
-
-
                     <div class="post__lists__box news__lists__box is-box-active <?php echo $active_tab === 0 ? 'is-box-active' : ''; ?>">
                         <?php
                         $term = get_queried_object();

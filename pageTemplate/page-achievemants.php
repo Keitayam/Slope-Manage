@@ -26,7 +26,7 @@ get_header();
                                 ***これらの事例は、紹介IFAが担当したソリューション事案になります。</p>
                         </div>
                         <figure class="img">
-<img src="<?php echo $theme_path; ?>/assets/img/achievements_heading.webp" alt="ウェルスマネジメントで資産を次世代へ繋ぐ" loading="lazy">
+                            <img src="<?php echo $theme_path; ?>/assets/img/achievements_heading.webp" alt="ウェルスマネジメントで資産を次世代へ繋ぐ" loading="lazy">
                         </figure>
                     </div>
                 </div>

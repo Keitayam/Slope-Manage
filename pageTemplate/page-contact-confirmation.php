@@ -5,9 +5,9 @@ Template Name: Contact-confirmation
 
 // テスト出力（あとで消してOK）
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  echo '<pre>';
-  var_dump($_POST);
-  echo '</pre>';
+    echo '<pre>';
+    var_dump($_POST);
+    echo '</pre>';
 }
 
 if (!session_id()) {
